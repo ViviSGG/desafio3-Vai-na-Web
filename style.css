@@ -51,7 +51,11 @@ nav a {
     text-decoration: none;
 }
   
-a:hover {
+header a:hover {
+    color: #0f468c;
+}
+
+header a:focus {
     color: #0f468c;
 }
 
@@ -72,7 +76,7 @@ a:hover {
 }
 
 .section1 h2 {
-    margin: 4vh 0 2vh 0;
+    margin: 2vh 0 2vh 0;
     font-size: 1.2rem;
     border-bottom: 1px solid;
     line-height: 40px;
@@ -82,15 +86,12 @@ a:hover {
     color: #0f468c;
     text-align: justify;
     line-height: 22px;
-    /* width: 45vw; */
     margin-right: 2vw;
-    /* padding: 6px 0; */
 }
   
 .section1 img {
     width: 540px;
     border-radius: 5px;
-    /* padding-left: 28px; */
 }
 
 /* .section1 div {
@@ -113,7 +114,7 @@ a:hover {
 }
 
 .section2 h2 {
-    margin: 4vh 0 2vh 0;
+    margin: 0 0 2vh 0;
     font-size: 1.2rem;
     border-bottom: 1px solid;
     line-height: 40px;
@@ -145,7 +146,7 @@ a:hover {
 
 .section3 h2 {
     color: #0f468c;
-    margin: 4vh 0 2vh 0;
+    margin: 0 0 2vh 0;
     font-size: 1.2rem;
     border-bottom: 1px solid;
     line-height: 40px;
@@ -169,6 +170,7 @@ figcaption {
     bottom: 10px;
     width: 90%;
     color: white;
+    font-size: 0.8rem;
 }
 
 .urso1, .urso2, .urso3, .urso4 {
@@ -180,7 +182,7 @@ figcaption {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 300px;
-    height: 30vh;
+    height: 200px;
     border-radius: 5px;
 }
 
@@ -193,7 +195,7 @@ figcaption {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 300px;
-    height: 30vh;
+    height: 200px;
     border-radius: 5px;
 }
 
@@ -206,7 +208,7 @@ figcaption {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 300px;
-    height: 30vh;
+    height: 200px;
     border-radius: 5px;
 }
 
@@ -219,7 +221,7 @@ figcaption {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 300px;
-    height: 30vh;
+    height: 200px;
     border-radius: 5px;
 }
 
@@ -240,6 +242,10 @@ footer {
     align-items: center;
     width: 84vw;
 }
+
+/* .section4 p {
+    font-size: 0.8rem;
+} */
 
 .div1, .div3 {
     width: 240px;
@@ -282,26 +288,26 @@ footer {
         flex-direction: column-reverse;
     }
 
-    /* .section1 div {
-        margin-top: 4vh;
-    } */
-
     .section1 div {
         width: 100%;
         margin-right: 0;
+    }
+
+    .section1 h2 {
+        margin: 4vh 0 2vh 0;
     }
 
     .section2 {
         flex-direction: column;
     }
 
-    /* .section2 p {
-        margin-top: 4vh;
-    } */
-
     .section2 div {
         width: 100%;
         margin-left: 0;
+    }
+
+    .section2 h2 {
+        margin: 4vh 0 2vh 0;
     }
 
     .section4 {
